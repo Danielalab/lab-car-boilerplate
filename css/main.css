@@ -7,3 +7,40 @@
 .view-mobile {
   display: block;
 }
+
+.bg-img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-top: -10vh
+}
+
+.bg-img-1 {
+  background-image: url('../assets/images/taxi.jpg');
+  height: 100vh;
+}
+
+/* style Mobile */
+
+.navbar {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+}
+
+.navbar-default {
+  background-color: #ffffff;
+  border: none;
+}
+
+.navbar-brand {
+  display: inline-block;
+  float: none;
+  padding-top: 0;
+  padding-bottom: 20px;
+  width: 100%;
+}  
