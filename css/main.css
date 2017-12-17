@@ -1,5 +1,10 @@
 /* Los estilos de tu proyecto */
 
+body {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+}
+
 .view-desktop {
   display: none;
 }
@@ -8,17 +13,62 @@
   display: block;
 }
 
+.background-1 {
+  background-color: #F7B617;
+}
+
 .bg-img {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  margin-top: -10vh
 }
 
 .bg-img-1 {
   background-image: url('../assets/images/taxi.jpg');
   height: 100vh;
+  margin-top: -15%;
 }
+
+.bg-img-2 {
+  background-image: url('../assets/images/conduce.jpg');
+  min-height: 60vh;
+}
+
+.vertical-aling {
+  position: relative;
+  top: 50%;
+}
+
+.margin-top {
+  margin-top: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+p {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h2,
+h3,
+h4 {
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
 
 /* style Mobile */
 
@@ -37,10 +87,212 @@
   border: none;
 }
 
+.navbar-default .navbar-nav>li>a {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 .navbar-brand {
   display: inline-block;
   float: none;
   padding-top: 0;
   padding-bottom: 20px;
   width: 100%;
-}  
+}
+
+.btn-default {
+  font-weight: 600;
+  border: none;
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+.form-horizontal .form-group div {
+  padding-right: 0;
+}
+
+.form-control {
+  color: white;
+  background-image: none;
+  box-shadow: none;
+  border: 1px solid #ffffff;
+  outline: none;
+}
+
+section form .form-control:focus {
+  outline: none;
+}
+
+.form-control::placeholder {
+  color: white;
+}
+
+#section-newapp p {
+  font-weight: 600;
+}
+
+#content-container {
+  padding: 28px;
+}
+
+#content-container img {
+  height: 20px;
+  margin-left: 5px;
+}
+
+#container-phone-img {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 1px solid white;
+  padding: 20px;
+}
+
+#section-drive>div>div {
+  background: rgba(0, 0, 0, 0.4);
+  height: 60vh;
+}
+
+#section-drive>div>div>div {
+  padding: 12px;
+  position: relative;
+  top: 20%;
+}
+
+#section-drive button {
+  color: white;
+  font-size: 16px;
+}
+
+footer {
+  background: #2B2B2B;
+}
+
+footer ul.col-xs-6 {
+  padding-right: 0;
+}
+
+footer h2 img {
+  height: 24px;
+}
+
+li>img {
+  max-width: 100%;
+}
+
+footer>ul>li {
+  font-size: 15px;
+  margin: 8px;
+}
+
+#social-networks {
+  float: right;
+}
+
+#social-networks li {
+  float: left;
+}
+
+#social-networks li a {
+  color: #ffffff;
+}
+
+
+/* style DESKTOP */
+
+@media (min-width: 768px) {
+  .view-desktop {
+    display: block;
+  }
+  .view-mobile {
+    display: none;
+  }
+  .navbar {
+    padding: 25px 50px;
+  }
+  .navbar-nav {
+    float: right;
+    margin: 0;
+  }
+  .navbar-brand {
+    float: left;
+    padding: 10px;
+  }
+  .navbar-brand img {
+    max-width: 100%;
+  }
+  .bg-img-1 {
+    margin-top: -75%;
+    height: 280vh;
+  }
+  .bg-img-2 {
+    height: 80vh;
+  }
+  .vertical-aling {
+    top: 70%;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    margin-top: 25px;
+    font-size: 24px;
+  }
+  .view-desktop>span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px;
+  }
+  .view-desktop>span::after {
+    content: '';
+    width: 34%;
+    height: 1px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 10%;
+  }
+  .view-desktop>span::before {
+    content: '';
+    width: 34%;
+    height: 1px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 10%;
+  }
+  .btn-default {
+    font-size: 18px;
+  }
+  #section-newapp>div {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  #section-newapp p {
+    font-size: 21px;
+    font-weight: 400;
+  }
+  #container-phone-img {
+    border-left: 0;
+    padding: 40px 0;
+  }
+  #section-drive>div>div>div {
+    font-size: 18px;
+    padding: 15px;
+  }
+  #section-rates>div {
+    padding: 50px;
+  }
+  footer.container-fluid {
+    padding: 45px;
+  }
+  footer>ul>li {
+    margin: 15px 10px ;
+  }
+  #social-networks {
+    float: left;
+    margin-top: 14em;
+  }
+}
