@@ -108,11 +108,15 @@ ul {
   margin-top: 15px;
 }
 
-.form-horizontal .form-group div {
+#section-rates {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#section-rates .form-horizontal .form-group div {
   padding-right: 0;
 }
 
-.form-control {
+#section-rates .form-control {
   color: white;
   background-image: none;
   box-shadow: none;
@@ -120,11 +124,13 @@ ul {
   outline: none;
 }
 
-section form .form-control:focus {
-  outline: none;
+#section-rates>div>img {
+  border: 1px solid white;
+  max-width: 100%;
+  padding: 7px;
 }
 
-.form-control::placeholder {
+#section-rates .form-control::placeholder {
   color: white;
 }
 
@@ -294,5 +300,100 @@ footer>ul>li {
   #social-networks {
     float: left;
     margin-top: 14em;
+  }
+  /* style modal */
+  #sign-up .modal-content, #drive .modal-content {
+    height: 85vh;
+  }
+
+  #sign-in form {
+    width: 60%;
+  }
+}
+
+/* style MODAL */
+
+header button.sign-in {
+  font-size: 16px;
+  margin-top: 0;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.background-modal {
+  background-color: #A9A9A9;
+}
+
+.bg-btn-1 {
+  background-color: #5BC0DE;
+}
+
+.bg-btn-2 {
+  background-color: #000000;
+}
+
+.modal-header {
+  border: none;
+  padding-bottom: 0;
+  padding-top: 0;
+} 
+
+.modal-header button {
+  font-size: 45px;
+}
+
+.modal-header div img {
+  border-radius:50%
+}
+
+.modal-body {
+  padding-top: 0;
+  color: black;
+}
+
+.modal-body>button{
+  color: #ffffff;
+}
+
+.modal-body p {
+  margin-top: 10px;
+}
+
+#sign-in .modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #ffffff;
+}
+#sign-in .modal-content {
+  background-color: #08AC9D;
+}
+
+#sign-in form {
+  background-color: #e9e7e7;
+  width: 90%;
+  margin-top: 20px;
+  padding: 20px;
+  padding-left: 23px;
+}
+
+#sign-in .form-group div {
+  display: inline-block;
+  width: 88%;
+}
+
+#sign-in label {
+  background-color: #dbd9d9;
+  border: 1px solid rgb(187, 187, 187);
+  float: left;
+  padding: 6px;
+}
+
+#sign-in .form-control {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+@media (max-width: 768px) {
+  #sing-up .modal-content, #drive .modal-content {
+    height: 95vh;
   }
 }
