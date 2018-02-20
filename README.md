@@ -1,11 +1,9 @@
 ##  **RETO LAB<AR**
-
 LabCar es un proyecto que recrea la maquetación de la siguiente página web que ofrece un servicio de
 taxis tanto para conductores como viajeros haciendo uso del framework *BOOTSTRAP*.
-
 ![Sin titulo](https://user-images.githubusercontent.com/32286663/36439710-b4defd74-163b-11e8-99e6-f9f8f8dda8e3.png)
 
-Desarrolado por [Laboratoria](http://www.laboratoria.la/ "titulo")
+## Desarrollado para [Laboratoria](http://laboratoria.la) 
 
 ### Detalles del repositorio:
 
