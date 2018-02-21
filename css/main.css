@@ -5,6 +5,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.height-map {
+  height: 60vh;
+}
+
 .view-desktop {
   display: none;
 }
@@ -19,7 +23,7 @@ body {
 
 .bg-img {
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
   background-size: cover;
 }
 
