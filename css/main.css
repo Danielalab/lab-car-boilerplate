@@ -73,17 +73,21 @@ ul {
   list-style: none;
 }
 
-
 /* style Mobile */
 
 .navbar {
   margin-bottom: 0;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+.width-logo {
+  width: 60%;
 }
 
 .navbar-toggle {
   float: left;
   margin-left: 15px;
+  padding: 1.4rem;
 }
 
 .navbar-default {
@@ -100,9 +104,7 @@ ul {
 .navbar-brand {
   display: inline-block;
   float: none;
-  padding-top: 0;
   padding-bottom: 20px;
-  width: 100%;
 }
 
 .btn-default {
@@ -116,6 +118,7 @@ ul {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 #section-rates .form-horizontal .form-group div {
   padding-right: 0;
 }
@@ -207,10 +210,12 @@ footer>ul>li {
   color: #ffffff;
 }
 
-
 /* style DESKTOP */
 
 @media (min-width: 768px) {
+  .width-logo {
+    width: 100%;
+  }
   .view-desktop {
     display: block;
   }
@@ -299,17 +304,17 @@ footer>ul>li {
     padding: 45px;
   }
   footer>ul>li {
-    margin: 15px 10px ;
+    margin: 15px 10px;
   }
   #social-networks {
     float: left;
     margin-top: 14em;
   }
   /* style modal */
-  #sign-up .modal-content, #drive .modal-content {
+  #sign-up .modal-content,
+  #drive .modal-content {
     height: 85vh;
   }
-
   #sign-in form {
     width: 60%;
   }
@@ -340,14 +345,14 @@ header button.sign-in {
   border: none;
   padding-bottom: 0;
   padding-top: 0;
-} 
+}
 
 .modal-header button {
   font-size: 45px;
 }
 
 .modal-header div img {
-  border-radius:50%
+  border-radius: 50%
 }
 
 .modal-body {
@@ -355,7 +360,7 @@ header button.sign-in {
   color: black;
 }
 
-.modal-body>button{
+.modal-body>button {
   color: #ffffff;
 }
 
@@ -367,6 +372,7 @@ header button.sign-in {
   padding: 15px;
   border-bottom: 1px solid #ffffff;
 }
+
 #sign-in .modal-content {
   background-color: #08AC9D;
 }
@@ -397,7 +403,8 @@ header button.sign-in {
 }
 
 @media (max-width: 768px) {
-  #sing-up .modal-content, #drive .modal-content {
+  #sing-up .modal-content,
+  #drive .modal-content {
     height: 95vh;
   }
 }
